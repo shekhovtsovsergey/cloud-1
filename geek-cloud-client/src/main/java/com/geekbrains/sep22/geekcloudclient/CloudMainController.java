@@ -168,15 +168,9 @@ public class CloudMainController implements Initializable {
 
         var splitMessage = message.split(REGEX);
 
-        //switch (splitMessage[0]) {
-        //    case "..":
-
+       
             List<String> files = new ArrayList();
-            //files.addAll(Collections.singleton(message));
-            //ArrayList files = new ArrayList();
-            //    var files = new ArrayList<String>();
-            //files.addAll(Collections.singleton(message));
-
+       
             getFiles(String.valueOf(files));
 
 
@@ -185,7 +179,7 @@ public class CloudMainController implements Initializable {
             }
 
             fillView(serverView, files);
-           // break;
+       
 
         }
 
